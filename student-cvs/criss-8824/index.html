@@ -190,9 +190,16 @@
               rows="6" placeholder="Describe the job / project / idea / etc.." maxlength="500"></textarea>
               <p><small>Minimun characteres are 500</small></p>
             </div>
-          <button>Send</button>
+          <button id="send-btn">Send</button>
         </fieldset>
       </form>
     </footer>
+    
+    <script>
+      const SEND_BUTTON = document.querySelector("#send-btn");
+      SEND_BUTTON.addEventListener("click", (e) => {
+        e.preventDefault()
+      })
+    </script>
   </body>
 </html>
