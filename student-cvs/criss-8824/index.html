@@ -76,83 +76,123 @@
         </div>
       </section>
     </article>
-    <h2>Terminal commands</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Comando</th>
-          <th>Descripción del comando</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <strong><code>mv</code></strong>
-          </td>
-          <td>Mueve de ubación o cambia el nombre de un archivo o carpeta</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>whatis</code></strong>
-          </td>
-          <td>Conoce para que sirve un determinado comando</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>man</code></strong>
-          </td>
-          <td>Muestra información detalla de un comando</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>touch</code></strong>
-          </td>
-          <td>Crea archivos</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>pwd</code></strong>
-          </td>
-          <td>Muestra la ruta del directorio en el que nos encontremos</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3>My aliases</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Alias</th>
-          <th>Descripción del alias</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <strong
-              ><code>upd='sudo apt update && sudo apt upgrade'</code></strong
-            >
-          </td>
-          <td>Actualiza los paquetes de mi ditribución de linux</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>config='vim ~/.zshrc'</code></strong>
-          </td>
-          <td>Abre el archivo de configuración de mis bash en vim</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>g='git'</code></strong>
-          </td>
-          <td>Abreviatura del comando Git</td>
-        </tr>
-        <tr>
-          <td>
-            <strong><code>upd='nvm install -lts'</code></strong>
-          </td>
-          <td>Actualiza node a la versión mas estable</td>
-        </tr>
-      </tbody>
-    </table>
+    <section class="terminal">
+      <h2>Terminal commands</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Comando</th>
+            <th>Descripción del comando</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>
+                <code>mv</code>
+              </strong>
+            </td>
+            <td>Mueve de ubación o cambia el nombre de un archivo o carpeta</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>whatis</code>
+              </strong>
+            </td>
+            <td>Conoce para que sirve un determinado comando</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>man</code>
+              </strong>
+            </td>
+            <td>Muestra información detalla de un comando</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>touch</code>
+              </strong>
+            </td>
+            <td>Crea archivos</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>pwd</code>
+              </strong>
+            </td>
+            <td>Muestra la ruta del directorio en el que nos encontremos</td>
+          </tr>
+        </tbody>
+        </table>
+        <h3>My aliases</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Alias</th>
+              <th>Descripción del alias</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>
+                <code>upd='sudo apt update && sudo apt upgrade'</code>
+              </strong>
+            </td>
+            <td>Actualiza los paquetes de mi ditribución de linux</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>config='vim ~/.zshrc'</code>
+              </strong>
+            </td>
+            <td>Abre el archivo de configuración de mis bash en vim</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>g='git'</code>
+              </strong>
+            </td>
+            <td>Abreviatura del comando Git</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>
+                <code>upd='nvm install -lts'</code>
+              </strong>
+            </td>
+            <td>Actualiza node a la versión mas estable</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <form>
+        <fieldset>
+          <legend>Contact with me</legend>
+          <div class="inputs">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </div>  
+            <div class="inputs">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="inputs">
+              <label for="description">Describe the job</label>
+              <textarea name="description" id="description" cols="48"
+              rows="6" placeholder="Describe the job / project / idea / etc.." maxlength="500"></textarea>
+              <p><small>Minimun characteres are 500</small></p>
+            </div>
+          <button>Send</button>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>

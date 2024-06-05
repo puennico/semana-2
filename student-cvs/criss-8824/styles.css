@@ -120,3 +120,72 @@ code {
 	text-align: center;
 	margin: 15px 0px 10px;
 }
+
+form {
+	text-align: center;
+	margin-block-start: 50px;
+}
+
+input,
+textarea {
+	display: block;
+	margin: auto;
+	margin-block: 10px 5px;
+	padding: 6px;
+	font-size: 16px;
+	font-family: inherit;
+	font-weight: 400;
+}
+
+fieldset {
+	padding-block: 20px;
+}
+
+label {
+	display: block;
+	text-align: start;
+	font-weight: 600;
+	color: #35211c;
+}
+
+legend {
+	padding-inline: 15px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #283618;
+}
+
+input,
+label {
+	width: 100%;
+}
+
+textarea + p {
+	text-align: start;
+	margin: 0;
+	font-size: 14px;
+	color: #223;
+	margin-block-end: 20px;
+}
+
+.inputs {
+	width: 50%;
+	margin: auto;
+}
+
+button {
+	width: 20%;
+	height: 40px;
+	background-color: #35211c;
+	color: white;
+	font-size: 16px;
+	font-family: inherit;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: box-shadow 300ms ease-in;
+}
+
+button:hover {
+	box-shadow: 0px 0px 10px 1px #223;
+}
